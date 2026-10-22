@@ -1,0 +1,8 @@
+numpy<2
+autogen-agentchat>=0.4.0
+autogen-ext[openai]>=0.4.0
+streamlit>=1.30
+python-dotenv>=1.0
+defusedxml>=0.7
+httpx>=0.27
+cairosvg>=2.7

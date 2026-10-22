@@ -1,0 +1,48 @@
+# ---------- Python ----------
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.venv/
+venv/
+env/
+ENV/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# ---------- 环境变量与密钥 ----------
+# .env.example 是模板，需要保留；真实密钥一律不进仓库
+.env
+.env.*
+!.env.example
+
+# ---------- 运行时生成物 ----------
+# 每次生成都会重建
+output/
+*.log
+tmp/
+.tmp/
+
+# ---------- 效果示例图 ----------
+# _samples/ 是早期生成结果，图标与数值有误，不入库
+# 仓库里的效果示例统一放在 figures/
+_samples/
+
+# ---------- 图标运行时缓存 ----------
+# 首次运行会按需从 Iconify 拉取并重建，缓存不入库
+assets/icons/cache/
+
+# ---------- Agent 工作记忆（本地私有） ----------
+.workbuddy/
+
+# ---------- 系统 / 编辑器 ----------
+.DS_Store
+Thumbs.db
+desktop.ini
+.vscode/
+.idea/
+*.swp
+*~
